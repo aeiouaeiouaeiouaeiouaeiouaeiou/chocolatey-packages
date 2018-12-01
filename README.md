@@ -1,13 +1,7 @@
 # Chocolatey Packages
 
-~~~
-<!-- EDIT ME-->
-
-[![](https://ci.appveyor.com/api/projects/status/github/YOUR_GITHUB_USERNAME_HERE/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/YOUR_GITHUB_USERNAME_HERE/chocolatey-packages)
-[Update status](https://gist.github.com/YOUR_GITHUB_USERNAME_HERE/YOUR_GIST_ID)
-
-<!-- REMOVE THE squiggles "~" surrounding this (this should not be a code block) -->
-~~~
+[![](https://ci.appveyor.com/api/projects/status/github/kzdixon/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/kzdixon/chocolatey-packages)
+[Update status](https://gist.github.com/kzdixon/YOUR_GIST_ID)
 
 ## Chocolatey Packages Template
 
@@ -47,9 +41,9 @@ For daily operations check out the AU packages [template README](https://github.
 ### Getting started
 
 1. Fork this repository and rename it to `chocolatey-packages` (on GitHub - go into Settings, Repository name and rename).
-1. Clone the repository locally.
-1. Head into the `setup` folder and perform the proper steps for your choice of setup (or both if you plan to use both methods).
-1. Edit this README. Update the badges at the top.
+2. Clone the repository locally.
+3. Head into the `setup` folder and perform the proper steps for your choice of setup (or both if you plan to use both methods).
+4. Edit this README. Update the badges at the top.
 
 
 ### Recommendation on Auto Packaging

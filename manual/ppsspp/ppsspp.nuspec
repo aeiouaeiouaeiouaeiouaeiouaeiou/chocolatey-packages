@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ppsspp</id>
+    <version>1.7.1</version>
+    <packageSourceUrl>https://github.com/hrydgard/ppsspp/releases/tag/v1.7.1</packageSourceUrl>
+    <owners>Kyle Dixon</owners>
+
+    <title>ppsspp (Install)</title>
+    <authors>Henrik Rydgård</authors>
+    <projectUrl>https://ppsspp.org</projectUrl>
+    <iconUrl>https://github.com/hrydgard/ppsspp/blob/master/icons/icon-114.png</iconUrl>
+    <copyright>© PPSSPP Project 2012-2018. PSP is a trademark of Sony, Inc.</copyright>
+    <licenseUrl>https://github.com/hrydgard/ppsspp/blob/master/LICENSE.TXT</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/hrydgard/ppsspp</projectSourceUrl>
+    <tags>ppsspp</tags>
+    <summary>A PSP emulator for Android, Windows, Mac and Linux, written in C++.</summary>
+    <description>A PSP emulator for Android, Windows, Mac and Linux, written in C++. Want to contribute? Join us on Discord at https://discord.gg/sdCwGGQ or in #ppsspp on freenode (IRC) or just send pull requests / issues. For discussion use the forums on ppsspp.org. https://www.ppsspp.org </description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
