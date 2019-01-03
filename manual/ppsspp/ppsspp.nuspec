@@ -3,6 +3,7 @@
   <metadata>
     <id>ppsspp</id>
     <version>1.7.4</version>
+    <releaseNotes>https://ppsspp.org/#news</releaseNotes>
     <packageSourceUrl>https://github.com/kzdixon/chocolatey-packages/tree/master/manual/ppsspp</packageSourceUrl>
     <owners>Kyle Dixon</owners>
 
