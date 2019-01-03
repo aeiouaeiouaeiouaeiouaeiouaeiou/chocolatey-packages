@@ -7,8 +7,8 @@ $packageArgs = @{
   fileType       = 'exe'
   url            = $url
   softwareName   = 'ppsspp*'
-  # checksum       = '69BBA75F1E12ED639E9D7D3DD62DC98BA670D18948B1694E7768F1FFCAE5A96E'
-  # checksumType   = 'sha256'
+  checksum       = 'BF2F4D8DCCDD69FCC000339EBB2049D1A03672A50DF2CC7873AED836BB7F9C57'
+  checksumType   = 'sha256'
   silentArgs     = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
   validExitCodes = @(0)
 }
