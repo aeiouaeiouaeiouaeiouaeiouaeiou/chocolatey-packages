@@ -4,7 +4,7 @@
     <id>ppsspp</id>
     <version>1.8.0</version>
     <releaseNotes>https://ppsspp.org/#news</releaseNotes>
-    <packageSourceUrl>https://github.com/kzdixon/chocolatey-packages/tree/master/manual/ppsspp</packageSourceUrl>
+    <packageSourceUrl>https://github.com/kzdixon/chocolatey-packages/tree/master/automatic/ppsspp</packageSourceUrl>
     <owners>Kyle Dixon</owners>
 
     <title>ppsspp (Install)</title>
