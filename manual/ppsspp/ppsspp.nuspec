@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ppsspp</id>
-    <version>1.7.4</version>
+    <version>1.8.0</version>
     <releaseNotes>https://ppsspp.org/#news</releaseNotes>
     <packageSourceUrl>https://github.com/kzdixon/chocolatey-packages/tree/master/manual/ppsspp</packageSourceUrl>
     <owners>Kyle Dixon</owners>
