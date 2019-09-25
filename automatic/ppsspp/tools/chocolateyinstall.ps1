@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = ''
+$url = 'http://ppsspp.org/files/1_9_0/PPSSPPSetup.exe'
 $checksum = ''
 
 $packageArgs = @{
