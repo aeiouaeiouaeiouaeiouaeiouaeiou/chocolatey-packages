@@ -5,7 +5,7 @@ $releases = 'http://ppsspp.org/downloads.html'
 function global:au_SearchReplace {
     @{
         'tools\chocolateyInstall.ps1' = @{
-            "(^[$]url\s*=\s*)('.*')"      = "`$1'$($Latest.URL)'"
+            "(^[$]url\s*=\s*)('.*')"      = "`$1'$($Latest.URL32)'"
             "(^[$]checksum\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
         }
      }
@@ -21,7 +21,7 @@ function global:au_GetLatest {
     $version = $version.replace('_', '.')
     $url = 'http://ppsspp.org/' + $url
 
-    $Latest = @{ URL = $url; Version = $version }
+    $Latest = @{ URL32 = $url; Version = $version }
     return $Latest
 }
 
