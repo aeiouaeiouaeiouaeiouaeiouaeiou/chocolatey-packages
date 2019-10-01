@@ -10,7 +10,7 @@
     <title>ppsspp (Install)</title>
     <authors>Henrik Rydgård</authors>
     <projectUrl>https://ppsspp.org</projectUrl>
-    <iconUrl>https://github.com/hrydgard/ppsspp/blob/master/icons/icon-114.p</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/hrydgard/ppsspp/6a1676413ee8bdbb53e0c133e02cf74a8950a13a/icons/icon-114.png</iconUrl>
     <copyright>© PPSSPP Project 2012-2018. PSP is a trademark of Sony, Inc.</copyright>
     <licenseUrl>https://github.com/hrydgard/ppsspp/blob/master/LICENSE.TXT</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
