@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'http://ppsspp.org/files/1_11_1/PPSSPPSetup.exe'
-$checksum = '2309e892d922cd20a2b530a890b0c91b5ec449a21239e1b4c26c3d1f7502f941'
+$url = 'http://ppsspp.org/files/1_11_2/PPSSPPSetup.exe'
+$checksum = 'b81a9d5e1db08172faea4393a26825f334e903f9f2e564cd219a8b1ae39875fd'
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
