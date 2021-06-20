@@ -1,7 +1,7 @@
 # Chocolatey Packages
 
 [![](https://ci.appveyor.com/api/projects/status/github/kzdixon/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/kzdixon/chocolatey-packages)
-[Update status](https://gist.github.com/kzdixon/YOUR_GIST_ID)
+[Update status](https://gist.github.com/kzdixon/1880bd22353df2d892459ee79f5761ad)
 
 ## Chocolatey Packages Template
 
