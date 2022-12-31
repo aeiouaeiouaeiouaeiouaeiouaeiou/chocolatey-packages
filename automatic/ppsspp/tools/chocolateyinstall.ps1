@@ -2,8 +2,8 @@
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $desktopDir = [Environment]::GetFolderPath("Desktop")
 $programFiles = [Environment]::GetFolderPath("ProgramFiles")
-$url = 'http://ppsspp.org/files/1_14_1/PPSSPPSetup.exe'
-$checksum = '7b527de4b961ad6dd912934456f8e4cd1f84e37fa47e330c779dd59b60474d80'
+$url = 'http://ppsspp.org/files/1_14_2/PPSSPPSetup.exe'
+$checksum = '0e870f6acb1610ff5901f63b3829b892e1ce04903aa492674627385fb2c70ade'
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
