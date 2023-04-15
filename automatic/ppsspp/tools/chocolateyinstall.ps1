@@ -2,8 +2,9 @@
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $desktopDir = [Environment]::GetFolderPath("Desktop")
 $programFiles = [Environment]::GetFolderPath("ProgramFiles")
-$url = 'http://ppsspp.org/files/1_14_4/PPSSPPSetup.exe'
+$url = 'https://ppsspp.org/files/1_14_4/PPSSPPSetup.exe'
 $checksum = '2fef2279bc8ca2b93f2278bd79b3ab912b1d2d2a7a8225e2545f3c2840440cd4'
+$pp = Get-PackageParameters
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
@@ -18,5 +19,7 @@ $packageArgs = @{
 }
 
 Install-ChocolateyPackage @packageArgs
-Install-ChocolateyShortcut -ShortcutFilePath ($desktopDir + '\PPSSPP (32-Bit).lnk') -TargetPath ($programFiles + '\PPSSPP\PPSSPPWindows.exe')
+if (!$pp['No32bitIcon']) {
+  Install-ChocolateyShortcut -ShortcutFilePath ($desktopDir + '\PPSSPP (32-Bit).lnk') -TargetPath ($programFiles + '\PPSSPP\PPSSPPWindows.exe')
+}
 Install-ChocolateyShortcut -ShortcutFilePath ($desktopDir + '\PPSSPP (64-Bit).lnk') -TargetPath ($programFiles + '\PPSSPP\PPSSPPWindows64.exe')
