@@ -19,7 +19,7 @@ function global:au_GetLatest {
     $url = $download_page.links | ? href -match $re | select -First 1 -expand href
     $version = $url -split '/' | select -Last 1 -Skip 1
     $version = $version.replace('_', '.')
-    $url = 'http://ppsspp.org/' + $url
+    $url = 'https://ppsspp.org/' + $url
 
     $Latest = @{ URL32 = $url; Version = $version }
     return $Latest
