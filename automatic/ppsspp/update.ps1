@@ -1,6 +1,6 @@
 import-module au
 
-$releases = 'http://ppsspp.org/downloads.html'
+$releases = 'https://www.ppsspp.org/download'
 
 function global:au_SearchReplace {
     @{
