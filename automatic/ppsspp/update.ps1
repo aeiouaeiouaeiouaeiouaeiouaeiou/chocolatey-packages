@@ -1,6 +1,6 @@
 import-module au
 
-$releases = 'https://www.ppsspp.org/download'
+$releases = 'http://www.ppsspp.org/download'
 
 function global:au_SearchReplace {
     @{
@@ -19,7 +19,7 @@ function global:au_GetLatest {
     $url = $download_page.links | ? href -match $re | select -First 1 -expand href
     $version = $url -split '/' | select -Last 1 -Skip 1
     $version = $version.replace('_', '.')
-    $url = 'https://ppsspp.org/' + $url
+    $url = 'http://ppsspp.org/' + $url
 
     $Latest = @{ URL32 = $url; Version = $version }
     return $Latest
