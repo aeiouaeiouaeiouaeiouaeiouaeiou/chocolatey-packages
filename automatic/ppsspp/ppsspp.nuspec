@@ -4,19 +4,19 @@
     <id>ppsspp</id>
     <version>1.15.4</version>
     <releaseNotes>https://ppsspp.org/#news</releaseNotes>
-    <packageSourceUrl>https://github.com/kzdixon/chocolatey-packages/tree/master/automatic/ppsspp</packageSourceUrl>
-    <owners>Kyle Dixon</owners>
+    <packageSourceUrl>https://github.com/aeiouaeiouaeiouaeiouaeiouaeiou/chocolatey-packages/tree/master/automatic/ppsspp</packageSourceUrl>
+    <owners>aeiouaeiouaeiouaeiouaeiouaeiou</owners>
     <title>ppsspp (Install)</title>
     <authors>Henrik Rydgård</authors>
     <projectUrl>https://ppsspp.org</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/hrydgard/ppsspp/6a1676413ee8bdbb53e0c133e02cf74a8950a13a/icons/icon-114.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/hrydgard/ppsspp/05d8752a64560939632f5112132afd85de72ce77/icons/icon-114.png</iconUrl>
     <copyright>© PPSSPP Project 2012-2023. PSP is a trademark of Sony, Inc.</copyright>
     <licenseUrl>https://github.com/hrydgard/ppsspp/blob/master/LICENSE.TXT</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/hrydgard/ppsspp</projectSourceUrl>
     <tags>ppsspp</tags>
     <summary>A PSP emulator for Android, Windows, Mac and Linux, written in C++.</summary>
-    <description>A PSP emulator for Android, Windows, Mac and Linux, written in C++. Want to contribute? Join us on Discord at https://discord.gg/sdCwGGQ or in #ppsspp on freenode (IRC) or just send pull requests / issues. For discussion use the forums on ppsspp.org. https://www.ppsspp.org </description>
+    <description>A PSP emulator for Android, Windows, Mac and Linux, written in C++. Want to contribute? Join us on Discord at https://discord.gg/5NJB6dD or just send pull requests / issues. For discussion use the forums on ppsspp.org. https://www.ppsspp.org </description>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

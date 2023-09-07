@@ -1,7 +1,7 @@
-# Chocolatey Packages
+# PPSSPP Chocolatey Packages
 
-[![](https://ci.appveyor.com/api/projects/status/github/kzdixon/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/kzdixon/chocolatey-packages)
-[Update status](https://gist.github.com/kzdixon/1880bd22353df2d892459ee79f5761ad)
+[![](https://ci.appveyor.com/api/projects/status/1iti6cru15tt0ju6?svg=true)](https://ci.appveyor.com/project/aeiouaeiouaeiouaeiouaeiouaeiou/chocolatey-packages)
+[Update status](https://gist.github.com/aeiouaeiouaeiouaeiouaeiouaeiou/7c4b6311cd9db44ccf9d6d1c0e4902bc)
 
 ## Chocolatey Packages Template
 
