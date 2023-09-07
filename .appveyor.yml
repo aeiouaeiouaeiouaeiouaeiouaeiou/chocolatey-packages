@@ -19,29 +19,29 @@ environment:
   au_test_groups: 1
 
   # Github token to commit pushed packages to repository
-  github_user_repo: kzdixon/chocolatey-packages
+  github_user_repo: aeiouaeiouaeiouaeiouaeiouaeiou/chocolatey-packages
   github_api_key:
-    secure: WLZWG7XDK7pkyONM3/HWzF6fHSPhRZfUM7LrjLCldeMtLuzsMPq704ef4Hg35M25
+    secure: T/IQgMChV1ZG3uGFElU8uVDsPLYfT3OdaWmDYK1+qEbClmZ/+x7gz1T3rWxpm+3Z
 
   # Mail credentials - for error notifications
-  mail_user:
-    secure: h4biMtIwjQiyAiBP6JOBumjOwQGnQBHHtnx45uxvT28=
-  mail_pass:
-    secure: Xxz7yaBFGFK5i/pEdxLkUtQF6JtziQ9ET2I+VBVtwYs=
-  mail_server: smtp.gmail.com
-  mail_port: 587
-  mail_enablessl: true
+  #mail_user:
+  #  secure: h4biMtIwjQiyAiBP6JOBumjOwQGnQBHHtnx45uxvT28=
+  #mail_pass:
+  #  secure: Xxz7yaBFGFK5i/pEdxLkUtQF6JtziQ9ET2I+VBVtwYs=
+  #mail_server: smtp.gmail.com
+  #mail_port: 587
+  #mail_enablessl: true
 
   # ID of the gist used to save run results - create a gist under the github_user (secret or not) and grab the id - https://gist.github.com/name/id
   # Optional, leave empty to create anonymous gist
-  gist_id: 1880bd22353df2d892459ee79f5761ad
+  gist_id: 7c4b6311cd9db44ccf9d6d1c0e4902bc
 
   # Force test: gist id for test results
-  gist_id_test: cba2174d71dd9387d3d77fffddcc0446
+  gist_id_test: 8a3b4a19f8de7c6906340d2c511005fa
 
   # Chocolatey API key - to push updated packages
   api_key:
-    secure: 2IoNKIPoOJNtKqQEa5a59rhfu2cFe9RGzahp+uKvrO0iaG/9iVbM9+mvkKBA0+Bs
+    secure: 4XIwVCUX7QxHYdTplzksvgposMf+9ylk4rk/ISCrgakmWTYut4yI6Znten+Mt50O
 
 init:
 - git config --global user.email "chocolatey@realdimensions.net"
