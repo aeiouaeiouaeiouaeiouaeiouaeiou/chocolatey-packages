@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ppsspp</id>
-    <version>1.15.4</version>
+    <version>1.16</version>
     <releaseNotes>https://ppsspp.org/#news</releaseNotes>
     <packageSourceUrl>https://github.com/aeiouaeiouaeiouaeiouaeiouaeiou/chocolatey-packages/tree/master/automatic/ppsspp</packageSourceUrl>
     <owners>aeiouaeiouaeiouaeiouaeiouaeiou</owners>
@@ -14,7 +14,7 @@
     <licenseUrl>https://github.com/hrydgard/ppsspp/blob/master/LICENSE.TXT</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/hrydgard/ppsspp</projectSourceUrl>
-    <tags>ppsspp</tags>
+    <tags>ppsspp psp playstation emulator gaming</tags>
     <summary>A PSP emulator for Android, Windows, Mac and Linux, written in C++.</summary>
     <description>A PSP emulator for Android, Windows, Mac and Linux, written in C++. Want to contribute? Join us on Discord at https://discord.gg/5NJB6dD or just send pull requests / issues. For discussion use the forums on ppsspp.org. https://www.ppsspp.org </description>
   </metadata>
