@@ -2,8 +2,8 @@
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $desktopDir = [Environment]::GetFolderPath("Desktop")
 $programFiles = [Environment]::GetFolderPath("ProgramFiles")
-$url = 'https://www.ppsspp.org/files/1_16_3/PPSSPPSetup.exe'
-$checksum = '1fdca06111bfe3f51a3509a3e0e15637dc2815197751014cc37e14e78c2bab2b'
+$url = 'https://www.ppsspp.org/files/1_16_4/PPSSPPSetup.exe'
+$checksum = '28514e609b5bcb1cf46dccfe0ee222d224697c15b97f1a34f9803cce06d3776c'
 $pp = Get-PackageParameters
 
 $packageArgs = @{
